@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="firstapp.gsisp.admin.optionsmenu"
+    >
+
+    <item android:id="@+id/first"
+          android:icon="@android:drawable/btn_star"
+          android:title="Fav"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/icon_search"
+        android:title="Settings"
+        app:showAsAction="always"
+       />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/icon_save"
+        android:title="Save"/>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/icon_share"
+        android:title="Share"/>
+    <item
+        android:id="@+id/bookmarks"
+        android:icon="@drawable/icon_bookmark"
+        android:title="Bookmarks"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/icon_delete"
+        android:title="Delete"/>
+    <item
+        android:id="@+id/pref"
+        android:icon="@drawable/icon_preferences"
+        android:title="Preferences"/>
+    <item
+        android:id="@+id/xyz"
+        android:icon="@drawable/icon_save"
+        android:title="XYZ"/>
+
+</menu>
